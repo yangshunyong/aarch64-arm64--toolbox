@@ -19,5 +19,5 @@ Following is a 128MB test on a Cortex-A53 CPU of Polynomial 0x04C11DB7. SW perfo
 | Address    | Size      | SW (ms) | HW (ms) |
 |------------|-----------|---------|---------|
 | 0x22000030 | 0x8000000 | 1471    | 128     |
-| 0x22000031 | 0x7ffffff | 1473    | 658     | <br>
+| 0x22000031 | 0x7FFFFFF | 1473    | 658     | <br>
 
