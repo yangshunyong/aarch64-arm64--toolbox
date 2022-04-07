@@ -39,11 +39,11 @@ void test_main()
     uint32_t polynomials[] = {0x04C11DB7, 0x1EDC6F41};
     uint32_t crc_sw, crc_hw;
 
-	test_data = malloc(TEST_SIZE);
+    test_data = malloc(TEST_SIZE);
 
-	for (i = 0; i < TEST_SIZE; i++) {
-		test_data[i] = i + 1 + 0x30;
-	}
+    for (i = 0; i < TEST_SIZE; i++) {
+        test_data[i] = i + 1 + 0x30;
+    }
 
     for (i = 0;  i < 4; i++) {
         for (k = 0; k < 5; k++) {
