@@ -68,7 +68,7 @@ void test_main()
         }
     }
 
-    printf("CRC32 test passed!\n", crc_sw, crc_hw);
+    printf("CRC32 test passed: %x %x\n", crc_sw, crc_hw);
     free(test_data);
 }
 
